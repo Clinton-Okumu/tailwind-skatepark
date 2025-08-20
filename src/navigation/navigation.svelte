@@ -1,12 +1,12 @@
 {#snippet link(title)}
-  <li>
-    <a href="#">{title}</a>
+  <li class="group border-b-2 px-4 py-2 hover:bg-red-50">
+    <a href="#" class="">{title}</a>
   </li>
 {/snippet}
 
-<nav>
-  <a href="/">Unicorn Corp</a>
-  <ul>
+<nav class="flex items-center justify-between">
+  <a href="/" class="text-xl font-extrabold">Unicorn Corp</a>
+  <ul class="flex gap-4">
     {@render link('Home')}
     {@render link('About')}
     {@render link('Services')}

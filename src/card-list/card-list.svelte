@@ -2,7 +2,7 @@
   import Card from '../card/card.svelte';
 </script>
 
-<div class="space-y-4">
+<div class="mdLflex-row flex flex-col gap-4">
   <Card title="Card Title" description="This is a description of the card." />
   <Card title="Another Card" description="This is another description of a different card." />
   <Card title="Third Card" description="This is a description of the third card." />
